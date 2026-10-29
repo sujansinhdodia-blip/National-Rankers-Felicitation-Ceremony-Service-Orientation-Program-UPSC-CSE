@@ -22,7 +22,7 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-const SITE_URL = "https://national-rankers-felicitation-ceremony-mitwpu.vercel.app";
+const SITE_URL = "https://mit-wpu-upsc-felicitation.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

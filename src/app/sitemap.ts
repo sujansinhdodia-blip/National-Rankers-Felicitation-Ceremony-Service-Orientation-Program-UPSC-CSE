@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { INITIAL_RANKERS } from "@/data/mockData";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://national-rankers-felicitation-ceremony-mitwpu.vercel.app";
+  const baseUrl = "https://mit-wpu-upsc-felicitation.vercel.app";
 
   const staticRoutes = [
     "",

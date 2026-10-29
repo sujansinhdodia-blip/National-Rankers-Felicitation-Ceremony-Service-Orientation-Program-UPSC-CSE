@@ -2,7 +2,7 @@
 ### Organised by MIT World Peace University (MIT-WPU), Pune
 *Centre for Civil Services Guidance & School of Government*
 
-[![Live Deployed URL](https://img.shields.io/badge/Live_Deployment-Vercel-success?style=for-the-badge&logo=vercel)](https://national-rankers-felicitation-ceremony-mitwpu.vercel.app)
+[![Live Deployed URL](https://img.shields.io/badge/Live_Deployment-Vercel-success?style=for-the-badge&logo=vercel)](https://mit-wpu-upsc-felicitation.vercel.app)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/sujansinhdodia-blip/National-Rankers-Felicitation-Ceremony-Service-Orientation-Program-UPSC-CSE.git)
 [![Next.js 14](https://img.shields.io/badge/Next.js-14_App_Router-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -13,7 +13,7 @@
 ---
 
 ## 🌐 Live URLs & Links
-- **Official Live Deployed Website:** [https://national-rankers-felicitation-ceremony-mitwpu.vercel.app](https://national-rankers-felicitation-ceremony-mitwpu.vercel.app)
+- **Official Live Deployed Website:** [https://mit-wpu-upsc-felicitation.vercel.app](https://mit-wpu-upsc-felicitation.vercel.app)
 - **Official GitHub Repository:** [https://github.com/sujansinhdodia-blip/National-Rankers-Felicitation-Ceremony-Service-Orientation-Program-UPSC-CSE.git](https://github.com/sujansinhdodia-blip/National-Rankers-Felicitation-Ceremony-Service-Orientation-Program-UPSC-CSE.git)
 
 ---
