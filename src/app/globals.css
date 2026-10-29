@@ -3,25 +3,105 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #F8F9FB;
+  --foreground: #0B1F4B;
+  --card: #FFFFFF;
+  --card-foreground: #0B1F4B;
+  --border: #E2E8F0;
+  --gold-accent: #C9A227;
+  --navy-primary: #0B1F4B;
+  --maroon-accent: #8B1E2D;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #06112C;
+  --foreground: #F8F9FB;
+  --card: #0B1F4B;
+  --card-foreground: #F8F9FB;
+  --border: #1E3A70;
+  --gold-accent: #E5C45B;
+  --navy-primary: #0B1F4B;
+  --maroon-accent: #C74B5D;
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* Formal academic typography styles */
+h1, h2, h3, .font-serif {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+/* Ceremonial ornamental separator */
+.ceremonial-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.ceremonial-divider::before,
+.ceremonial-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #C9A227;
+  opacity: 0.4;
+}
+
+.ceremonial-divider span {
+  padding: 0 1rem;
+  color: #C9A227;
+}
+
+/* Subtle Ashoka / Tricolour Top Accent Ribbon */
+.tricolour-ribbon {
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #FF9933 0%,
+    #FF9933 33.33%,
+    #FFFFFF 33.33%,
+    #FFFFFF 66.66%,
+    #138808 66.66%,
+    #138808 100%
+  );
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F0F4FC;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4D4F0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C9A227;
+}
+
+/* Print Styles for Pass & Schedule */
+@media print {
+  header, footer, .no-print, button, .notice-ticker {
+    display: none !important;
+  }
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-card {
+    border: 2px solid #0B1F4B !important;
+    box-shadow: none !important;
+    break-inside: avoid;
   }
 }
